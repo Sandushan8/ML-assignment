@@ -1,0 +1,22 @@
+|--- feature_1 <= 129.50
+|   |--- feature_5 <= 26.30
+|   |   |--- feature_6 <= 0.67
+|   |   |   |--- class: 0
+|   |   |--- feature_6 >  0.67
+|   |   |   |--- class: 0
+|   |--- feature_5 >  26.30
+|   |   |--- feature_7 <= 27.50
+|   |   |   |--- class: 0
+|   |   |--- feature_7 >  27.50
+|   |   |   |--- class: 0
+|--- feature_1 >  129.50
+|   |--- feature_5 <= 27.85
+|   |   |--- feature_1 <= 145.50
+|   |   |   |--- class: 0
+|   |   |--- feature_1 >  145.50
+|   |   |   |--- class: 0
+|   |--- feature_5 >  27.85
+|   |   |--- feature_1 <= 158.50
+|   |   |   |--- class: 1
+|   |   |--- feature_1 >  158.50
+|   |   |   |--- class: 1
